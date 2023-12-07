@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="Chrome"/>
+    <test  preserve-order="true" name="Tests">
+        <classes>
+            <class name="Tests.SignUp"/>
+            <class name="Tests.Login"/>
+            <class name="Tests.BuyItem"/>
+            <class name="Tests.Logout"/>
+        </classes>
+    </test>
+</suite>
